@@ -1,0 +1,28 @@
+title: "Notes about devops and web."
+author: "Dmytro Dzubenko"
+description: "Blog about my notes"
+more: "read more"
+url: "http://dmytro.dzubenko.name"
+
+comments:
+    disqus: "dzubenko"
+
+style:
+#    body: "whitesmoke"
+    padding: 33%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+  - github: "https://github.com/dzubchik/"
+  - twitter: "https://twitter.com/dzubchik/"
+
+paginate: 10
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
